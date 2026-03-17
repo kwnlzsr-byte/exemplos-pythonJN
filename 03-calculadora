@@ -1,0 +1,18 @@
+import os
+os.system("cls")
+
+numero01 = float(input("Digite o primeiro número:"))
+numero02 = float(input("Digite o segundo número:"))
+
+operacao = input("Escolha a operação")
+
+if(operacao == "+"):
+    resultado = numero01 + numero02
+elif(operacao == "-"):
+    resultado = numero01 - numero02
+elif(operacao == "*"):
+    resultado = numero01 * numero02
+elif(operacao == "/"):
+    resultado = numero01 / numero02
+
+print("O resultado é: ", resultado)
